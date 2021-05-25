@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shriya tourism</title>
+</head>
+<body>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body{color: seashell;
+            margin: 0px;
+            padding: 0px;
+            background: url(img/pexels-pixabay-36717.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+        }
+        .left{
+            display: inline-block;
+            
+            position:absolute;
+            left: 39px;
+            top:27px; 
+        }
+        .left img{
+            align-items: center;
+            width: 90px;
+            filter:invert(100%)
+        }
+        .left div{
+            color: wheat:
+            font-size: 80px;
+            text-align: center;
+            
+            
+        }
+        .middle{display: block;
+            width: 46%;
+            margin: 27px auto;
+            
+        }
+        .right{
+            position:absolute;
+            right: 34px;
+            top:27px;
+            display:inline-block;
+            
+
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            color: white;
+            display: inline-block;
+            font-size: 19px;
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 34px 13px;
+        }
+        .navbar li a:hover,.navbar li a.active{
+            text-decoration: underline;
+            color: gray;
+        }
+
+            .btn{
+        margin: 0px 9px;
+        background-color: black;
+        color: rgb(255, 255, 255);
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgba(30, 31, 30, 0.315);
+    }
+
+
+    </style>
+    <header><div class="head">
+        <div class="left">
+            <img src="img/eliobed-suarez-VDYZPTBPMgg-unsplash.jpg" alt="">
+            <div>Shriya tourisms</div>
+        </div>
+        <div class="middle">
+       <ul class="navbar">
+           <li><a href="#"class="active">Home</a></li>
+           <li><a href="#">About us</a></li>
+           <li><a href="#">Inspirational Blog</a></li>
+           <li><a href="#">Travel Resources</a></li>
+       </ul>
+        </div>
+        <div class="right">
+            <Button class="btn">call us</Button><Button class="btn">Email us</Button>
+
+        </div>
+    </div>
+        <h1> register here </h1>
+        <form action="backend.php">
+            <div>
+                Name<input type="text" name="Name" id=""maxlength="5"minlength="3"required>
+            </div>
+            <br>
+            <div>
+                E-mail  <input type="email" name="Email" id="">
+            </div>
+            <br>
+            <div>
+              Bonous <input type="number"name="my number" id=""max="3"min="1">
+            </div>
+            <br>
+            <div>
+                age <input type="number" name="" id="my age" max="18"min="40">
+            
+            </div>
+            <br>
+            eligible: yes<input type="radio" name="my gender" id="">No<input type="radio" name="my gender" id="">
+            <div>
+                <br>
+
+             <input type="submit" value="Submit Now">
+            </div>
+            <br>
+        </form>
+    </header>
+</body>
+</html>
